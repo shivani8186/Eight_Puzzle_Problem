@@ -4,30 +4,18 @@ This project is a Java implementation of the classic 8-Puzzle problem using the 
 📌 Project Overview
 The 8-Puzzle (also called the Sliding Puzzle or N-Puzzle) is a famous AI search problem where the goal is to rearrange a 3x3 grid of numbered tiles so that they reach the target configuration:
 
-Goal State:
-1 2 3
-4 5 6
-7 8 _
-Here, _ (zero) represents the empty space.
-
 This project uses A* search:
 g(n): cost to reach the current state
 h(n): Manhattan distance (heuristic)
 f(n) = g(n) + h(n)
 
 ⚡ Features
-Solves any valid, solvable 8-puzzle configuration.
-Uses Manhattan Distance as heuristic for optimal path.
-Prints the sequence of moves (Up, Down, Left, Right) from start to goal.
-Detects and avoids revisiting states.
+    Solves any valid, solvable 8-puzzle configuration.
+    Uses Manhattan Distance as heuristic for optimal path.
+    Prints the sequence of moves (Up, Down, Left, Right) from start to goal.
+    Detects and avoids revisiting states.
 
 🛠️ How to Run
-Clone this repository:
-git clone https://github.com/your-username/eight-puzzle-solver.git
-
-Navigate to the folder:
-cd eight-puzzle-solver
-
 Compile the program:
 javac EightpuzzleSolver.java
 
@@ -53,12 +41,12 @@ Move: Down
 ... (continues until goal)
 
 📚 Concepts Used
-Artificial Intelligence
-Heuristic Search (A*)
-Manhattan Distance
-Priority Queue / Min-Heap
+   Artificial Intelligence
+   Heuristic Search (A*)
+   Manhattan Distance
+   Priority Queue / Min-Heap
 
 🚀 Future Enhancements
-Add solvability check before running the solver.
-Extend to 15-puzzle (4x4).
-Implement different heuristics for comparison.
+   Add solvability check before running the solver.
+   Extend to 15-puzzle (4x4).
+   Implement different heuristics for comparison.
